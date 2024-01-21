@@ -37,7 +37,9 @@
 }
 
 .address_container {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
+  width: 100%;
+  align-items: center;
 }
 
 .address_container .label {
@@ -47,6 +49,17 @@
 .address_container .address {
   font-size: 26px;
   font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  margin-left: 18rem;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.address_container .address button {
+  margin-left: 1rem;
+  border: none;
+  background: none;
 }
 
 .create_conn_container p {
@@ -58,6 +71,17 @@
   width: 15rem;
   padding: .5rem;
   font-size: 18px;
+}
+
+.create_conn_container button {
+  width: 5rem;
+  padding: .5rem;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  border-radius: 5px;
+  background-color: lightgray;
+  margin-left: 2rem;
 }
 
 .sub-container textarea {

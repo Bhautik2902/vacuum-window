@@ -5,34 +5,34 @@ function App() {
   return (
     <html>
       <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-wv5tNq2ZZeP6yKOpTg+Z6W5tZR5V5/d9/1LT1OSW5zVoqTkcJs6u1fT1JdA2uj/Py" crossorigin="anonymous"/>
+       
       </head>
       <body>
         <div className="App">
           <header className="App-header">
             <h2>Vacuum Window</h2>
           </header>
-          <div class="main-container">
-            <div class="sub-container">
-              <div class='address_container'>
-                <p class="label">Your address</p>
-                <div class="address">
+          <div className="main-container">
+            <div className="sub-container">
+              <div className='address_container'>
+                <p className="label">Your address</p>
+                <div className="address">
                   <p>234 545 876</p>
-                  <i class="fa-solid fa-copy"></i>
+                  <button><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/copy.png" alt="copy"/></button>
                 </div>
               </div>
               
-              <div class='create_conn_container'>
-                <p class="label">Enter connection address</p>
-                <input type='number' class="Entry" />
+              <div className='create_conn_container'>
+                <p className="label">Enter connection address</p>
+                <input type='number' className="Entry" />
+                <button>submit</button>
               </div>
                 
             </div>
-            <div class="sub-container">
+            <div className="sub-container">
               <textarea>
-
               </textarea>
-              <div class="right-bottom">
+              <div className="right-bottom">
                 <input type='checkbox' /> 
                 <p>Auto send</p>
                 <button>Send</button>
