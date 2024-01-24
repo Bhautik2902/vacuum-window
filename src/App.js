@@ -25,7 +25,7 @@ function App() {
               <div className='create_conn_container'>
                 <p className="label">Enter connection address</p>
                 <input type='number' className="Entry" />
-                <button>submit</button>
+                <button>Connect</button>
               </div>
                 
             </div>

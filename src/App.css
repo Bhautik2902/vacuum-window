@@ -74,9 +74,8 @@
 }
 
 .create_conn_container button {
-  width: 5rem;
-  padding: .5rem;
-  font-size: 18px;
+  padding: .4rem .4rem;
+  font-size: 16px;
   font-weight: 500;
   color: black;
   border-radius: 5px;
@@ -109,8 +108,8 @@
 .right-bottom button {
   height: 2rem;
   width: 5rem;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 5px;
   padding: .3rem 1rem;
-  margin-left: 14rem;
+  margin-left: 16rem;
 }
